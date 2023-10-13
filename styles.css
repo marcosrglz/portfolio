@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+body {
+  font-family: 'Quicksand';
+  margin: auto;
+  padding: 0;
+  width: 100vw;
+  min-height: 100vh;
+  background-color: #443742;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-wrapper {
+  background-color: #F5EBE0;
+  padding: 20px;
+  border-radius: 16px;
+}
+
+.personal-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 600px;
+}
+
+.devel-info .monospace {
+  margin: 0;
+}
+
+
+.devel-info h1 {
+  font-size: 30px;
+  margin: 0;
+}
+
+.devel-info h2 {
+  font-size: 25px;
+  margin-top: 10px;
+}
+.profile-picture {
+  border-radius: 100rem;
+  border: 2px solid #443742;
+}
+
+
+.monospace {
+  font-family: 'Fira Code';
+  font-size: small;
+  padding: 0;
+}
